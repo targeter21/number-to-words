@@ -10,9 +10,9 @@ public class NumberConverterImpl implements NumberConverter {
     public String convertNumberToWords(String number) {
         StringBuilder stringBuilder = new StringBuilder();
 
-        if (!number.equals("0")) {
-            List<String> numberChunks = new ArrayList<>();
-            int chunkSize = 3;
+        if (Integer.valueOf(number) != 0) {
+            final List<String> numberChunks = new ArrayList<>();
+            final int chunkSize = 3;
 
             // Group the number into chunks of 3 so we can break the problem down
             // and reuse code. We start from the right because numbers won't always
