@@ -21,7 +21,7 @@ public class NumberConverterImpl implements NumberConverter {
     public String convertNumberToWords(String numberString) {
         StringBuilder stringBuilder = new StringBuilder();
 
-        // Eliminates appending 0's
+        // Eliminates prepending 0's
         try {
             Integer numberToConvert = Integer.valueOf(numberString);
             numberString = String.valueOf(numberToConvert);
