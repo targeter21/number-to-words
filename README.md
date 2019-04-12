@@ -10,7 +10,7 @@ Converts numbers to their English word equivalents.
 1. Run `mvn package` to build the jar file. This will also run the tests.
 
 ## Running the jar
-1. Run `java -jar <name of jar file> <list of numbers delimited by spaces>`
+1. Run `java -jar <name of jar file> <list of numbers delimited by spaces>`.
     - eg: `java -jar interview-1.0-SNAPSHOT.jar 43242 678`.
 
 ## Docker build
