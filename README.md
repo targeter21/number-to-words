@@ -14,5 +14,5 @@ Converts numbers to their English word equivalents.
     - eg: `java -jar interview-1.0-SNAPSHOT.jar 43242 678`.
 
 ## Docker build
-1. Run `docker build -t <image namespace>/<image tag>`.
-    - eg: `docker build -t interview/number-to-words`.
+1. Run `docker build -t <image namespace>/<image tag> .`
+    - eg: `docker build -t interview/number-to-words .`
