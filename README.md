@@ -15,4 +15,10 @@ Converts numbers to their English word equivalents.
 
 ## Docker build
 1. Run `docker build -t <image namespace>/<image tag> .`
-    - eg: `docker build -t interview/number-to-words .`
+    - eg: `docker build -t exercise/numbers-to-words .`
+
+## Running the Docker container
+1. Run `docker run <name of image from build step> <list of numbers delimited by spaces>`
+    - eg: `docker run exercise/numbers-to-words 43242 678`
+1. Alternatively you can use what's already on Docker Hub.
+    - eg: `docker run gantderising/numbers-to-words 43242 678`
