@@ -1,5 +1,5 @@
 # Number to Words
-Converts numbers to their English word equivalents.
+Converts numbers to their English word equivalents. The supported range is -2,147,483,648 to 2,147,483,647.
 
 ## What you'll need
 1. Maven 3.6.0+.
