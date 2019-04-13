@@ -1,3 +1,5 @@
+package com.interview;
+
 import com.interview.NumberConverter;
 import com.interview.NumberConverterImpl;
 import org.junit.Test;
